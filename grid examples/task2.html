@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-gap:20px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.item1 {
+  /* grid-column: 1 / -1 span;  -1 means it will start from 1 to end or */
+  grid-column: 1 / -1;
+}
+.item2 {
+  grid-column: 2 / 4 span;
+}
+</style>
+</head>
+<body>
+
+<div class="grid-container">
+  <div class="grid-item item1">1</div>
+  <div class="grid-item item1">2</div>
+  <div class="grid-item item1">3</div>  
+  <div class="grid-item item2">4</div>
+</div>
+
+</body>
+</html>
