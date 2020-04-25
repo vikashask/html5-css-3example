@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+  grid-gap:20px;
+  background-color: #2196F3;
+  padding: 10px;
+  margin-bottom: 2em;
+}
+.box{
+  padding: 20px;
+  background-color: rgb(231, 182, 182)
+}
+.grid-container2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  grid-gap:20px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="grid-container">
+  <div class="grid-item box">1</div>
+  <div class="grid-item box">2</div>
+  <div class="grid-item box">3</div>  
+  <div class="grid-item box">4</div>
+  <div class="grid-item box">5</div>
+  <div class="grid-item box">5</div>
+</div>
+<div class="grid-container2">
+  <div class="grid-item box">1</div>
+  <div class="grid-item box">2</div>
+  <div class="grid-item box">3</div>  
+  <div class="grid-item box">4</div>
+</div>
+
+</body>
+</html>
