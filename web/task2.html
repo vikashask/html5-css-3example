@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+      grid-gap: 20px;
+      padding: 10px;
+      margin-bottom: 2em;
+    }
+
+    .box {
+      padding: 20px;
+      background-color: rgb(231, 182, 182)
+    }
+
+    .container {
+      padding: 10px 50px 10px 50px;
+      background-color: #f1f1f1;
+
+    }
+
+    .header {
+      overflow: hidden;
+      background-color: #f1f1f1;
+    }
+
+    .header a.logo {
+      font-size: 25px;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    .header-right {
+      float: right;
+      width: 250px;
+    }
+
+    .header a {
+      float: left;
+      color: black;
+      text-align: center;
+      padding: 12px;
+      text-decoration: none;
+      font-size: 18px;
+      line-height: 25px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+
+<body class="container">
+  <div class="header">
+    <a href="#default" class="logo">my travel and tips</a>
+    <div class="header-right">
+      A series of blog post will help you get started on word traversing
+    </div>
+  </div>
+  <hr>
+  <div class="grid-container">
+    <div class="box">
+      <img src="../assets/default_image.png" width="100%">
+      <b class="title">titlxxc</b><br>
+      <span>sub title</span>
+    </div>
+    <div class="box">
+      <img src="../assets/default_image.png" width="100%">
+      <b class="title">titlxxc</b><br>
+      <span>sub title</span>
+    </div>
+    <div class="box">
+        <img src="../assets/default_image.png" width="100%">
+        <b class="title">titlxxc</b><br>
+        <span>sub title</span>
+      </div>
+      <div class="box">
+          <img src="../assets/default_image.png" width="100%">
+          <b class="title">titlxxc</b><br>
+          <span>sub title</span>
+        </div>
+  </div>
+
+</body>
+
+</html>
